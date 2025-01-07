@@ -9,13 +9,19 @@ class SignupScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Signup'),
-        backgroundColor: Colors.orange,
+        backgroundColor:Color(0xffff734c),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(20.0),
+        padding: const EdgeInsets.only(top: 10.0, left: 12.0, right: 12.0, bottom: 8.0),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
+
+
+             Image.asset('images/pik1.png',height: 180, width: 180, fit: BoxFit.cover,),
+
+             SizedBox(height: 5,),
+
             const Text(
               "Create Account",
               style: TextStyle(
@@ -58,7 +64,7 @@ class SignupScreen extends StatelessWidget {
                   // Handle signup logic
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.orange,
+                  backgroundColor: Color(0xffff734c),
                   padding: const EdgeInsets.all(15),
                 ),
                 child: const Text(
@@ -82,7 +88,7 @@ class SignupScreen extends StatelessWidget {
                   },
                   child: const Text(
                     "Login",
-                    style: TextStyle(color: Colors.orange),
+                    style: TextStyle(color: Color(0xffff734c),),
                   ),
                 ),
               ],

@@ -12,7 +12,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        margin: const EdgeInsets.only(top: 50.0, left: 15),
+        margin: const EdgeInsets.only(top: 50.0, left: 15, right:15),
         child: Column(
           // mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -79,7 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     width: 80,
                     // color: Colors.amberAccent,
                     decoration: BoxDecoration(
-                      color: Color(0xffff734c),
+                      color: const Color(0xffff734c),
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: const Center(
@@ -93,7 +93,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                   const SizedBox(
-                    width: 20.0,
+                    width: 5.0,
                   ),
                   Container(
                     width: 180,
@@ -104,21 +104,22 @@ class _HomeScreenState extends State<HomeScreen> {
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(20),
                       child: Container(
-                        decoration: BoxDecoration(),
+                        decoration: const BoxDecoration(),
                         child: Expanded(
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             // crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               Image.asset(
-                                "images/pik1.png",
+                                "images/pizza1.png",
+                                
                                 fit: BoxFit.cover,
                               ),
-                              SizedBox(
-                                width: 10,
+                              const SizedBox(
+                                width: 5,
                               ),
-                              Text(
-                                "Burger",
+                              const Text(
+                                "Pizza",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -131,33 +132,33 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                   ),
-                  SizedBox(
-                    width: 20,
+                  const SizedBox(
+                    width: 5.0,
                   ),
                   Container(
                     width: 180,
                     // color: Colors.white,
-                    padding: EdgeInsets.all(10),
+                    padding: const EdgeInsets.all(10),
                     child: Material(
                       elevation: 3.0,
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(20),
                       child: Container(
-                        decoration: BoxDecoration(),
+                        decoration: const BoxDecoration(),
                         child: Expanded(
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             // crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               Image.asset(
-                                "images/pik1.png",
+                                "images/pizza1.png",
                                 fit: BoxFit.cover,
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 width: 10,
                               ),
-                              Text(
-                                "Burger",
+                              const Text(
+                                "Pizza",
                                 style: TextStyle(
                                   fontSize: 18,
                                 ),
@@ -170,68 +171,32 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                   ),
-                  SizedBox(
-                    width: 10,
+                  const SizedBox(
+                    width: 5,
                   ),
                   Container(
                     width: 180,
                     // color: Colors.white,
-                    padding: EdgeInsets.all(10),
+                    padding:const EdgeInsets.all(10),
                     child: Material(
                       elevation: 3.0,
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(20),
                       child: Container(
-                        decoration: BoxDecoration(),
+                        decoration:const  BoxDecoration(),
                         child: Expanded(
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             // crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               Image.asset(
-                                "images/pik1.png",
+                                "images/pizza1.png",
                                 fit: BoxFit.cover,
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 width: 10,
                               ),
-                              Text(
-                                "Burger",
-                                style: TextStyle(
-                                  fontSize: 18,
-                                ),
-                              ),
-
-                              /*********************************************************************************/
-                            ],
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                  Container(
-                    width: 180,
-                    // color: Colors.white,
-                    padding: EdgeInsets.all(10),
-                    child: Material(
-                      elevation: 3.0,
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(20),
-                      child: Container(
-                        decoration: BoxDecoration(),
-                        child: Expanded(
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            // crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Image.asset(
-                                "images/pik1.png",
-                                fit: BoxFit.cover,
-                              ),
-                              SizedBox(
-                                width: 10,
-                              ),
-                              Text(
+                              const Text(
                                 "Burger",
                                 style: TextStyle(
                                   fontSize: 18,
@@ -248,26 +213,98 @@ class _HomeScreenState extends State<HomeScreen> {
                   Container(
                     width: 180,
                     // color: Colors.white,
-                    padding: EdgeInsets.all(10),
+                    padding: const EdgeInsets.all(10),
                     child: Material(
                       elevation: 3.0,
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(20),
                       child: Container(
-                        decoration: BoxDecoration(),
+                        decoration: const BoxDecoration(),
                         child: Expanded(
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             // crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               Image.asset(
-                                "images/pik1.png",
+                                "images/pizza1.png",
                                 fit: BoxFit.cover,
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 width: 10,
                               ),
-                              Text(
+                              const Text(
+                                "Burger",
+                                style: TextStyle(
+                                  fontSize: 18,
+                                ),
+                              ),
+
+                              /*********************************************************************************/
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Container(
+                    width: 180,
+                    // color: Colors.white,
+                    padding: const EdgeInsets.all(10),
+                    child: Material(
+                      elevation: 3.0,
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(20),
+                      child: Container(
+                        decoration: const BoxDecoration(),
+                        child: Expanded(
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            // crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              Image.asset(
+                                "images/pizza1.png",
+                                fit: BoxFit.cover,
+                              ),
+                              const SizedBox(
+                                width: 10,
+                              ),
+                              const Text(
+                                "Burger",
+                                style: TextStyle(
+                                  fontSize: 18,
+                                ),
+                              ),
+
+                              /*********************************************************************************/
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Container(
+                    width: 180,
+                    // color: Colors.white,
+                    padding: const EdgeInsets.all(10),
+                    child: Material(
+                      elevation: 3.0,
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(20),
+                      child: Container(
+                        decoration: const BoxDecoration(),
+                        child: Expanded(
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            // crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              Image.asset(
+                                "images/pizza1.png",
+                                fit: BoxFit.cover,
+                              ),
+                              const SizedBox(
+                                width: 10,
+                              ),
+                              const Text(
                                 "Burger",
                                 style: TextStyle(
                                   fontSize: 18,
@@ -297,43 +334,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             // crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               Image.asset(
-                                "images/pik1.png",
-                                fit: BoxFit.cover,
-                              ),
-                              SizedBox(
-                                width: 10,
-                              ),
-                              Text(
-                                "Burger",
-                                style: TextStyle(
-                                  fontSize: 18,
-                                ),
-                              ),
-
-                              /*********************************************************************************/
-                            ],
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                  Container(
-                    width: 180,
-                    // color: Colors.white,
-                    padding: EdgeInsets.all(10),
-                    child: Material(
-                      elevation: 3.0,
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(20),
-                      child: Container(
-                        decoration: BoxDecoration(),
-                        child: Expanded(
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            // crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Image.asset(
-                                "images/pik1.png",
+                                "images/pizza1.png",
                                 fit: BoxFit.cover,
                               ),
                               SizedBox(
@@ -524,8 +525,73 @@ class _HomeScreenState extends State<HomeScreen> {
                 ],
               ),
             ),
+            SizedBox(height: 10,),
 
             /****************************************************************** */
+            
+                     Material(
+                      elevation: 5,
+                      borderRadius: BorderRadius.circular(20),
+                       child: Container(
+                        width: 150,
+                        height: 270,
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Center(child: ClipRRect(child: Image.asset("images/pizza1.png", height: 150, width: 150, fit: BoxFit.cover,))),
+                            
+                            SizedBox(height: 10,),
+                            Text(
+                               "Pizza",
+                                style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold,
+                                ),
+                                ),
+                                     
+                                    SizedBox(height: 10,),
+                                    
+                                    Text("Cheese,  TOMATO",
+                                    style: TextStyle(
+                                      fontSize: 16,
+                                      color: Colors.black,
+                                    ),
+                                    ),
+                                    SizedBox(height: 10,),
+                                     
+                                    Row(
+                                      children: [
+                                        Text("  \$50",
+                                        
+                                        style: TextStyle(
+                                          fontSize: 18,
+                                          color: Colors.black,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                        ),
+                                        SizedBox(width: 80,),
+                                     
+                                        Container(
+                                          color: Colors.amber,
+                                          child: Icon(Icons.add),
+                                        )
+                                      ],
+                                    ),  
+                          ],
+                        ),
+                      ),
+                     ),
+                 
+                     
+                 
+                  
+            
+
             
 
 

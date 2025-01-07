@@ -10,13 +10,20 @@ class LoginScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Login'),
-        backgroundColor: Colors.orange,
+        backgroundColor: Color(0xffff734c),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(20.0),
+        padding: const EdgeInsets.only(top: 10, left: 12, right: 12, bottom: 10),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
+
+
+            Image.asset('images/pik1.png',height: 180, width: 180, fit: BoxFit.cover,),
+
+            SizedBox(
+              height: 10,
+            ),
             const Text(
               "Welcome Back!",
               style: TextStyle(
@@ -55,7 +62,7 @@ class LoginScreen extends StatelessWidget {
                   );
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.orange,
+                  backgroundColor: Color(0xffff734c),
                   padding: const EdgeInsets.all(15),
                 ),
                 child: const Text(
@@ -65,6 +72,9 @@ class LoginScreen extends StatelessWidget {
               ),
             ),
             const Spacer(),
+
+            
+
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -79,7 +89,7 @@ class LoginScreen extends StatelessWidget {
                   },
                   child: const Text(
                     "Signup",
-                    style: TextStyle(color: Colors.orange),
+                    style: TextStyle(color: Color(0xffff734c),),
                   ),
                 ),
               ],
