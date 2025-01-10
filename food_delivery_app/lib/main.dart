@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery_app/Screens/homescreen.dart';
 import 'package:food_delivery_app/Screens/onboardingscreen.dart';
 // import 'package:food_delivery_app/Screens/signupscreen.dart';
 
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const OnboardingScreen(),
+      // home: const OnboardingScreen(),
+      home:  HomeScreen(),
     );
   }
 }
