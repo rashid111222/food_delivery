@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
@@ -11,6 +10,17 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+  //     bottomNavigationBar: CurvedNavigationBar(
+  //   backgroundColor: Colors.blueAccent,
+  //   items: <Widget>[
+  //     const Icon(Icons.add, size: 30),
+  //     const Icon(Icons.list, size: 30),
+  //     const Icon(Icons.compare_arrows, size: 30),
+  //   ],
+  //   onTap: (index) {
+  //     //Handle button tap
+  //   },
+  // ),
       body: SingleChildScrollView(
         child: Container(
           margin: const EdgeInsets.only(top: 50.0, left: 15, right:15),
@@ -99,7 +109,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     Container(
                       width: 180,
                       // color: Colors.white,
-                      padding: EdgeInsets.all(10),
+                      padding: const EdgeInsets.all(10),
                       child: Material(
                         elevation: 3.0,
                         color: Colors.white,
@@ -324,13 +334,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     Container(
                       width: 180,
                       // color: Colors.white,
-                      padding: EdgeInsets.all(10),
+                      padding: const EdgeInsets.all(10),
                       child: Material(
                         elevation: 3.0,
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(20),
                         child: Container(
-                          decoration: BoxDecoration(),
+                          decoration: const BoxDecoration(),
                           child: Expanded(
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -340,12 +350,12 @@ class _HomeScreenState extends State<HomeScreen> {
                                   "images/pizza1.png",
                                   fit: BoxFit.cover,
                                 ),
-                                SizedBox(
+                                const SizedBox(
                                   width: 10,
                                 ),
-                                Text(
+                                const Text(
                                   "Burger",
-                                  style: TextStyle(
+                                  style: const TextStyle(
                                     fontSize: 18,
                                   ),
                                 ),
@@ -360,13 +370,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     Container(
                       width: 180,
                       // color: Colors.white,
-                      padding: EdgeInsets.all(10),
+                      padding: const EdgeInsets.all(10),
                       child: Material(
                         elevation: 3.0,
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(20),
                         child: Container(
-                          decoration: BoxDecoration(),
+                          decoration: const BoxDecoration(),
                           child: Expanded(
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -376,12 +386,12 @@ class _HomeScreenState extends State<HomeScreen> {
                                   "images/pik1.png",
                                   fit: BoxFit.cover,
                                 ),
-                                SizedBox(
+                                const SizedBox(
                                   width: 10,
                                 ),
-                                Text(
+                                const Text(
                                   "Burger",
-                                  style: TextStyle(
+                                  style: const TextStyle(
                                     fontSize: 18,
                                   ),
                                 ),
@@ -396,13 +406,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     Container(
                       width: 180,
                       // color: Colors.white,
-                      padding: EdgeInsets.all(10),
+                      padding: const EdgeInsets.all(10),
                       child: Material(
                         elevation: 3.0,
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(20),
                         child: Container(
-                          decoration: BoxDecoration(),
+                          decoration: const BoxDecoration(),
                           child: Expanded(
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -414,12 +424,12 @@ class _HomeScreenState extends State<HomeScreen> {
                                   height: 100,
                                   fit: BoxFit.cover,
                                 ),
-                                SizedBox(
+                                const SizedBox(
                                   width: 10,
                                 ),
-                                Text(
+                                const Text(
                                   "Burger",
-                                  style: TextStyle(
+                                  style: const TextStyle(
                                     fontSize: 18,
                                   ),
                                 ),
@@ -434,13 +444,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     Container(
                       width: 180,
                       // color: Colors.white,
-                      padding: EdgeInsets.all(10),
+                      padding: const EdgeInsets.all(10),
                       child: Material(
                         elevation: 3.0,
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(20),
                         child: Container(
-                          decoration: BoxDecoration(),
+                          decoration: const BoxDecoration(),
                           child: Expanded(
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -452,12 +462,12 @@ class _HomeScreenState extends State<HomeScreen> {
                                   height: 100,
                                   fit: BoxFit.cover,
                                 ),
-                                SizedBox(
+                                const SizedBox(
                                   width: 10,
                                 ),
-                                Text(
+                                const Text(
                                   "Burger",
-                                  style: TextStyle(
+                                  style: const TextStyle(
                                     fontSize: 18,
                                   ),
                                 ),
@@ -472,13 +482,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     Container(
                       width: 180,
                       // color: Colors.white,
-                      padding: EdgeInsets.all(10),
+                      padding: const EdgeInsets.all(10),
                       child: Material(
                         elevation: 3.0,
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(20),
                         child: Container(
-                          decoration: BoxDecoration(),
+                          decoration: const BoxDecoration(),
                           child: Expanded(
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -488,12 +498,12 @@ class _HomeScreenState extends State<HomeScreen> {
                                   "images/pik1.png",
                                   fit: BoxFit.cover,
                                 ),
-                                SizedBox(
+                                const SizedBox(
                                   width: 10,
                                 ),
-                                Text(
+                                const Text(
                                   "Burger",
-                                  style: TextStyle(
+                                  style: const TextStyle(
                                     fontSize: 18,
                                   ),
                                 ),
@@ -507,7 +517,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     Container(
                       height: 180,
-                      padding: EdgeInsets.all(10),
+                      padding: const EdgeInsets.all(10),
                       child: Material(
                         elevation: 3.0,
                         color: Colors.white,
@@ -518,9 +528,9 @@ class _HomeScreenState extends State<HomeScreen> {
                               Image.asset(
                                 "images/pik1.png",
                               ),
-                              Text(
+                              const Text(
                                 "Pizza",
-                                style: TextStyle(
+                                style: const TextStyle(
                                   fontSize: 18,
                                 ),
                               ),
@@ -532,22 +542,23 @@ class _HomeScreenState extends State<HomeScreen> {
                   ],
                 ),
               ),
-              SizedBox(height: 10,),
+              const SizedBox(height: 10,),
         
               /*********************************************************************************/
                /*********************************************************************************/
               
-                       Container(
+                      SizedBox(
                         height: 280,
                          child: ListView(
                           scrollDirection: Axis.horizontal,
+                          padding: EdgeInsets.zero,
                            children: [
-                            Container(margin: EdgeInsets.only(bottom: 10),
+                            Container(margin: const EdgeInsets.only(bottom: 10),
                               child: Material(
                               elevation: 5,
                               borderRadius: BorderRadius.circular(20),
                                child: Container(
-                                margin: EdgeInsets.only(left: 10, right: 10),
+                                margin: const EdgeInsets.only(left: 10, right: 10),
                                 width: 150,
                                 height: 270,
                                 decoration: BoxDecoration(
@@ -562,8 +573,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                         borderRadius: BorderRadius.circular(20),
                                         child: Image.asset("images/pizza1.png", height: 150, width: 150, fit: BoxFit.cover,))),
                                     
-                                    SizedBox(height: 10,),
-                                    Text(
+                                    const SizedBox(height: 10,),
+                                    const Text(
                                        "Pizza",
                                         style: TextStyle(
                                         color: Colors.black,
@@ -572,19 +583,19 @@ class _HomeScreenState extends State<HomeScreen> {
                                         ),
                                         ),
                                              
-                                            SizedBox(height: 10,),
+                                            const SizedBox(height: 10,),
                                             
-                                            Text("Cheese,  TOMATO",
+                                            const Text("Cheese,  TOMATO",
                                             style: TextStyle(
                                               fontSize: 16,
                                               color: Colors.black,
                                             ),
                                             ),
-                                            SizedBox(height: 10,),
+                                            const SizedBox(height: 10,),
                                              
                                             Row(
                                               children: [
-                                                Text("  \$50",
+                                                const Text("  \$50",
                                                 
                                                 style: TextStyle(
                                                   fontSize: 18,
@@ -592,16 +603,16 @@ class _HomeScreenState extends State<HomeScreen> {
                                                   fontWeight: FontWeight.bold,
                                                 ),
                                                 ),
-                                                SizedBox(width: 70,),
+                                                const SizedBox(width: 70,),
                                              
                                                 Container(
-                                                  padding: EdgeInsets.all(5), 
+                                                  padding: const EdgeInsets.all(5), 
                                                   decoration: BoxDecoration(
                                                     color: const Color(0xffff734c),
                                                     borderRadius: BorderRadius.circular(10),
                                                   ) ,
                                                    
-                                                  child: Icon(Icons.add),
+                                                  child: const Icon(Icons.add),
                                                 ),
                                               ],
                                             ),  
@@ -615,7 +626,7 @@ class _HomeScreenState extends State<HomeScreen> {
                            const SizedBox(width: 10,),
 
                            Container(
-                            margin: EdgeInsets.only(bottom: 10),  
+                            margin: const EdgeInsets.only(bottom: 10),  
                              child: Material(
                               borderRadius: BorderRadius.circular(20),
                               elevation: 3.0,
@@ -689,88 +700,15 @@ class _HomeScreenState extends State<HomeScreen> {
                           
                            /*********************************************************************************/
 
-                          SizedBox(width: 10,),
-
-
-                           Container(
-                            margin: EdgeInsets.only(bottom: 10),
-                             child: Material(
-                              elevation: 5,
-                              borderRadius: BorderRadius.circular(20),
-                               child: Container(
-                                margin: EdgeInsets.only(left: 10, right: 10),
-                                width: 150,
-                                height: 270,
-                                decoration: BoxDecoration(
-                                  color: Colors.white,
-                                  borderRadius: BorderRadius.circular(20),
-                                ),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Center(
-                                      child: ClipRRect(
-                                        borderRadius: BorderRadius.circular(20),
-                                        child: Image.asset("images/pizza1.png", height: 150, width: 150, fit: BoxFit.cover,))),
-                                    
-                                    SizedBox(height: 10,),
-                                    Text(
-                                       "Pizza",
-                                        style: TextStyle(
-                                        color: Colors.black,
-                                        fontSize: 18,
-                                        fontWeight: FontWeight.bold,
-                                        ),
-                                        ),
-                                             
-                                            SizedBox(height: 10,),
-                                            
-                                            Text("Cheese,  TOMATO",
-                                            style: TextStyle(
-                                              fontSize: 16,
-                                              color: Colors.black,
-                                            ),
-                                            ),
-                                            SizedBox(height: 10,),
-                                             
-                                            Row(
-                                              children: [
-                                                Text("  \$50",
-                                                
-                                                style: TextStyle(
-                                                  fontSize: 18,
-                                                  color: Colors.black,
-                                                  fontWeight: FontWeight.bold,
-                                                ),
-                                                ),
-                                                SizedBox(width: 70,),
-                                             
-                                                Container(
-                                                  padding: EdgeInsets.all(5), 
-                                                  decoration: BoxDecoration(
-                                                    color: const Color(0xffff734c),
-                                                    borderRadius: BorderRadius.circular(10),
-                                                  ) ,
-                                                   
-                                                  child: Icon(Icons.add),
-                                                ),
-                                              ],
-                                            ),  
-                                  ],
-                                ),
-                              ),
-                             ),
-                           ),
-
                             /*********************************************************************************/
                           const SizedBox(width: 10,),
                       
                           Container(
-                            margin: EdgeInsets.only(bottom: 10),
+                            margin: const EdgeInsets.only(bottom: 10),
                             child: Material(
                             elevation: 5,
                             borderRadius: BorderRadius.circular(20),
-                            child: Container(margin:   EdgeInsets.only(left: 10, right: 10),
+                            child: Container(margin:const EdgeInsets.only(left: 10, right: 10),
                               width: 150,
                               height: 270,
                               decoration: BoxDecoration(
@@ -834,15 +772,264 @@ class _HomeScreenState extends State<HomeScreen> {
                                 ],
                               ),
                             ),
-                                                     ),
                           ),
+                        ),
                           /*********************************************************************************/
-                        ],
-                      ),
+                      ],
                     ),
+                  ),
+
+                    const SizedBox(height: 10,),
+                    
 
                      /*********************************************************************************/
                       /*********************************************************************************/
+
+                    const Text(
+                      "TOP FOOD DEALS",
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                      ),
+                      ),
+
+                      const SizedBox(height: 10,),
+                      /*********************************************************************************/
+                      
+                      
+                       SizedBox(
+                        height: 280,
+                         child: ListView(
+                          scrollDirection: Axis.horizontal,
+                          padding: EdgeInsets.zero,
+                           children: [
+                            Container(margin: const EdgeInsets.only(bottom: 10),
+                              child: Material(
+                              elevation: 5,
+                              borderRadius: BorderRadius.circular(20),
+                               child: Container(
+                                margin: const EdgeInsets.only(left: 10, right: 10),
+                                width: 150,
+                                height: 270,
+                                decoration: BoxDecoration(
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(20),
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Center(
+                                      child: ClipRRect(
+                                        borderRadius: BorderRadius.circular(20),
+                                        child: Image.asset("images/pizza1.png", height: 150, width: 150, fit: BoxFit.cover,))),
+                                    
+                                    const SizedBox(height: 10,),
+                                    const Text(
+                                       "Pizza",
+                                        style: TextStyle(
+                                        color: Colors.black,
+                                        fontSize: 18,
+                                        fontWeight: FontWeight.bold,
+                                        ),
+                                        ),
+                                             
+                                            const SizedBox(height: 10,),
+                                            
+                                            const Text("Cheese,  TOMATO",
+                                            style: TextStyle(
+                                              fontSize: 16,
+                                              color: Colors.black,
+                                            ),
+                                            ),
+                                            const SizedBox(height: 10,),
+                                             
+                                            Row(
+                                              children: [
+                                                const Text("  \$50",
+                                                
+                                                style: TextStyle(
+                                                  fontSize: 18,
+                                                  color: Colors.black,
+                                                  fontWeight: FontWeight.bold,
+                                                ),
+                                                ),
+                                                const SizedBox(width: 70,),
+                                             
+                                                Container(
+                                                  padding: const EdgeInsets.all(5), 
+                                                  decoration: BoxDecoration(
+                                                    color: const Color(0xffff734c),
+                                                    borderRadius: BorderRadius.circular(10),
+                                                  ) ,
+                                                   
+                                                  child: const Icon(Icons.add),
+                                                ),
+                                              ],
+                                            ),  
+                                  ],
+                                ),
+                              ),
+                                                         ),
+                            ),
+
+                            /*********************************************************************************/
+                           const SizedBox(width: 10,),
+
+                           Container(
+                            margin: const EdgeInsets.only(bottom: 10),  
+                             child: Material(
+                              borderRadius: BorderRadius.circular(20),
+                              elevation: 3.0,
+                              child: Container(
+                                margin: const EdgeInsets.only(left: 10, right: 10),
+                                width: 150,
+                                height: 270,
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    ClipRRect(
+                                      child: Image.asset(
+                                        "images/burger1.png",
+                                        height: 150,
+                                        width: 150,
+                                        fit: BoxFit.cover,
+                                        ),
+                                      ),
+                                      const SizedBox(height: 10,),
+                                      
+                                      const Text(
+                                        "Burger",
+                                        style: TextStyle(
+                                          color: Colors.black,
+                                          fontSize: 18,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                      
+                                      const SizedBox(height: 10,),  
+                              
+                                      const Text(
+                                        "Cheese,  TOMATO",
+                                        style: TextStyle(
+                                          color: Colors.black,
+                                          fontSize: 16,
+                                          // fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                      const SizedBox(height: 10,),
+                                       Row(
+                                        children: [
+                                          const Text(
+                                            ' \$70',
+                                            style: TextStyle(
+                                              color: Colors.black,
+                                              fontSize: 18,
+                                              fontWeight: FontWeight.bold,
+                                            ),  
+                                          ),
+                                          const SizedBox(width: 70),
+                                          Container(
+                                            padding: const EdgeInsets.all(5),
+                                            decoration: BoxDecoration(
+                                              color: const Color(0xffff734c),
+                                              borderRadius: BorderRadius.circular(10),
+                                            ),
+                                          child: const Icon(
+                                            Icons.add
+                                            )
+                                          ),
+                             
+                                          
+                                        ],
+                                      ),
+                                  ],
+                                ),
+                              ),
+                                                       ),
+                           ),
+                          
+                           /*********************************************************************************/
+
+                            /*********************************************************************************/
+                          const SizedBox(width: 10,),
+                      
+                          Container(
+                            margin: const EdgeInsets.only(bottom: 10),
+                            child: Material(
+                            elevation: 5,
+                            borderRadius: BorderRadius.circular(20),
+                            child: Container(margin:const EdgeInsets.only(left: 10, right: 10),
+                              width: 150,
+                              height: 270,
+                              decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(20),
+                            ),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Center(
+                                  child: ClipRRect(
+                                    child: Image.asset(
+                                      "images/pizza1.png", height: 150, width: 150, fit: BoxFit.cover,)
+                                    )
+                                  ),
+                                  
+                                const SizedBox(height: 10,),
+                                  const Text(
+                                     "Pizza",
+                                      style: TextStyle(
+                                      color: Colors.black,
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold,
+                                       ),
+                                      ),
+                                           
+                                        const SizedBox(height: 10,),
+                                          
+                                        const Text("Cheese,  TOMATO",
+                                        style: TextStyle(
+                                        fontSize: 16,
+                                        color: Colors.black,
+                                      ),
+                                      ),
+                                          const SizedBox(height: 10,),
+                                           
+                                          Row(
+                                            children: [
+                                              const Text("  \$50",
+                                              
+                                              style:  TextStyle(
+                                                fontSize: 18,
+                                                color: Colors.black,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                              ),
+                                              const SizedBox(width: 70,),
+                                           
+                                              Container(
+                                                padding: const EdgeInsets.all(5),
+                                                decoration: BoxDecoration(
+                                                  color: const Color(0xffff734c),
+                                                  borderRadius: BorderRadius.circular(10),
+                                                ),
+                                                 
+                                                
+                                                child: const Icon(Icons.add),
+                                              ),
+                                            ],
+                                          ),  
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                          /*********************************************************************************/
+                      ],
+                    ),
+                  ),
+                
         
             ],
           ),

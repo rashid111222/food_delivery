@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery_app/Screens/bottomNav.dart';
+import 'package:food_delivery_app/Screens/food_detailed_screen.dart';
 import 'package:food_delivery_app/Screens/homescreen.dart';
 import 'package:food_delivery_app/Screens/onboardingscreen.dart';
 // import 'package:food_delivery_app/Screens/signupscreen.dart';
@@ -12,10 +14,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      // home: const OnboardingScreen(),
-      home:  HomeScreen(),
+    //  home: const OnboardingScreen(),
+      // home:  HomeScreen(),
+    //  home: const Bottomnav(),
+     home: FoodDetailedScreen(),
     );
   }
 }

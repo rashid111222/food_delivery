@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery_app/Screens/bottomNav.dart';
 import 'package:food_delivery_app/Screens/homescreen.dart';
 import 'package:food_delivery_app/Screens/signupscreen.dart';
 
@@ -10,7 +11,7 @@ class LoginScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Login'),
-        backgroundColor: Color(0xffff734c),
+        backgroundColor: const Color(0xffff734c),
       ),
       body: Padding(
         padding: const EdgeInsets.only(top: 10, left: 12, right: 12, bottom: 10),
@@ -21,7 +22,7 @@ class LoginScreen extends StatelessWidget {
 
             Image.asset('images/pik1.png',height: 180, width: 180, fit: BoxFit.cover,),
 
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             const Text(
@@ -58,11 +59,11 @@ class LoginScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const HomeScreen()),
+                    MaterialPageRoute(builder: (context) => const Bottomnav()),
                   );
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xffff734c),
+                  backgroundColor: const Color(0xffff734c),
                   padding: const EdgeInsets.all(15),
                 ),
                 child: const Text(
