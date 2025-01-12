@@ -16,10 +16,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-    //  home: const OnboardingScreen(),
+     home: const OnboardingScreen(),
       // home:  HomeScreen(),
     //  home: const Bottomnav(),
-     home: FoodDetailedScreen(),
+    //  home: FoodDetailedScreen(),
     );
   }
 }

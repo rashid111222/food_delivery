@@ -18,7 +18,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         child: Container(
           child: Column(
             children: [
-              SizedBox(
+              const SizedBox(
                 height: 20.0,
               ),
 
@@ -35,34 +35,34 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
               /***********************************  Heading  *********************************************/
 
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
-              Text(
+              const Text(
                 "Discover Your Food",
-                style: TextStyle(
+                style: const TextStyle(
                   color: Colors.black,
                   fontSize: 26,
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20.0,
               ),
 
               /************************************  Text   *********************************************/
 
-              Padding(
+              const Padding(
                 padding: const EdgeInsets.only(
                   left: 20.0,
                   right: 20,
                 ),
-                child: Text(
+                child: const Text(
                   "A Food Delivery App lets users order food from restaurants and"
                   "get it delivered to their doorstep. It includes features for browsing menus, tracking orders,"
                   "and making payments, with roles for Users, Riders, Sellers, and Admins.",
                   textAlign: TextAlign.center,
-                  style: TextStyle(
+                  style: const TextStyle(
                       color: Colors.black54,
                       fontSize: 18.0,
                       fontWeight: FontWeight.w500),
@@ -70,7 +70,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               ),
 
               /***********************************  Button   **********************************************/
-              SizedBox(
+              const SizedBox(
                 height: 40.0,
               ),
               Material(
@@ -89,12 +89,12 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     height: 60,
                     width: MediaQuery.of(context).size.width / 2,
                     decoration: BoxDecoration(
-                        color: Color(0xffff734c),
+                        color: const Color(0xffff734c),
                         borderRadius: BorderRadius.circular(20.0)),
-                    child: Center(
-                      child: Text(
+                    child: const Center(
+                      child: const Text(
                         "Next",
-                        style: TextStyle(
+                        style: const TextStyle(
                           color: Colors.white,
                           fontSize: 24.0,
                           fontWeight: FontWeight.bold,

@@ -47,6 +47,7 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^4.0.0
   curved_navigation_bar: ^1.0.6 #latest version
+  flutter_gif_view: ^3.0.0 # Add this package
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

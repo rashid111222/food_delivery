@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery_app/Screens/food_detailed_screen.dart';
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
@@ -117,27 +118,37 @@ class _HomeScreenState extends State<HomeScreen> {
                         child: Container(
                           decoration: const BoxDecoration(),
                           child: Expanded(
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              // crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                Image.asset(
-                                  "images/pizza1.png",
-                                  
+                            child: GestureDetector(
+                              onTap: () {
+                                  Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                  builder: (context) => const FoodDetailedScreen(), // Replace with your target screen widget
+                                 ),
+                                );
+                              },
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                // crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                               Image.asset(
+                                 "images/pizza1.png",
                                   fit: BoxFit.cover,
-                                ),
-                                const SizedBox(
-                                  width: 5,
-                                ),
-                                const Text(
-                                  "Pizza",
-                                  style: TextStyle(
-                                    fontSize: 18,
                                   ),
-                                ),
-        
-                                /*********************************************************************************/
-                              ],
+                                  
+                                  const SizedBox(
+                                    width: 5,
+                                  ),
+                                  const Text(
+                                    "Pizza",
+                                    style: TextStyle(
+                                      fontSize: 18,
+                                    ),
+                                  ),
+                                      
+                                  /*********************************************************************************/
+                                ],
+                              ),
                             ),
                           ),
                         ),
@@ -154,34 +165,46 @@ class _HomeScreenState extends State<HomeScreen> {
                         elevation: 3.0,
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(20),
-                        child: Container(
-                          decoration: const BoxDecoration(),
-                          child: Expanded(
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              // crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                Image.asset(
-                                  "images/burger1.png",
-                                  width: 80,
-                                  height: 100,
-                                  fit: BoxFit.cover,
+                          
+                          child: Container(
+                            decoration: const BoxDecoration(),
+                            child: Expanded(
+                              child: GestureDetector(
+                                 onTap: () {
+                                  Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                  builder: (context) => const FoodDetailedScreen(), // Replace with your target screen widget
+                                 ),
+                                );
+                              },
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  // crossAxisAlignment: CrossAxisAlignment.center,
+                                  children: [
+                                    Image.asset(
+                                      "images/burger1.png",
+                                      width: 80,
+                                      height: 100,
+                                      fit: BoxFit.cover,
+                                    ),
+                                    const SizedBox(
+                                      width: 10,
+                                    ),
+                                    const Text(
+                                      "Pizza",
+                                      style: TextStyle(
+                                        fontSize: 18,
+                                      ),
+                                    ),
+                                    
+                                    /*********************************************************************************/
+                                  ],
                                 ),
-                                const SizedBox(
-                                  width: 10,
-                                ),
-                                const Text(
-                                  "Pizza",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-        
-                                /*********************************************************************************/
-                              ],
+                              ),
                             ),
                           ),
-                        ),
+                        
                       ),
                     ),
                     const SizedBox(
@@ -198,26 +221,36 @@ class _HomeScreenState extends State<HomeScreen> {
                         child: Container(
                           decoration:const  BoxDecoration(),
                           child: Expanded(
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              // crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                Image.asset(
-                                  "images/pizza1.png",
-                                  fit: BoxFit.cover,
-                                ),
-                                const SizedBox(
-                                  width: 10,
-                                ),
-                                const Text(
-                                  "Burger",
-                                  style: TextStyle(
-                                    fontSize: 18,
+                            child: GestureDetector(
+                              onTap: () {
+                                  Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                  builder: (context) => const FoodDetailedScreen(), // Replace with your target screen widget
+                                 ),
+                                );
+                              },
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                // crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  Image.asset(
+                                    "images/pizza1.png",
+                                    fit: BoxFit.cover,
                                   ),
-                                ),
-        
-                                /*********************************************************************************/
-                              ],
+                                  const SizedBox(
+                                    width: 10,
+                                  ),
+                                  const Text(
+                                    "Burger",
+                                    style: TextStyle(
+                                      fontSize: 18,
+                                    ),
+                                  ),
+                                      
+                                  /*********************************************************************************/
+                                ],
+                              ),
                             ),
                           ),
                         ),
@@ -234,26 +267,36 @@ class _HomeScreenState extends State<HomeScreen> {
                         child: Container(
                           decoration: const BoxDecoration(),
                           child: Expanded(
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              // crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                Image.asset(
-                                  "images/pizza1.png",
-                                  fit: BoxFit.cover,
-                                ),
-                                const SizedBox(
-                                  width: 10,
-                                ),
-                                const Text(
-                                  "Burger",
-                                  style: TextStyle(
-                                    fontSize: 18,
+                            child: GestureDetector(
+                              onTap: () {
+                                  Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                  builder: (context) => const FoodDetailedScreen(), // Replace with your target screen widget
+                                 ),
+                                );
+                              },
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                // crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  Image.asset(
+                                    "images/pizza1.png",
+                                    fit: BoxFit.cover,
                                   ),
-                                ),
-        
-                                /*********************************************************************************/
-                              ],
+                                  const SizedBox(
+                                    width: 10,
+                                  ),
+                                  const Text(
+                                    "Burger",
+                                    style: TextStyle(
+                                      fontSize: 18,
+                                    ),
+                                  ),
+                                      
+                                  /*********************************************************************************/
+                                ],
+                              ),
                             ),
                           ),
                         ),
@@ -565,58 +608,68 @@ class _HomeScreenState extends State<HomeScreen> {
                                   color: Colors.white,
                                   borderRadius: BorderRadius.circular(20),
                                 ),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Center(
-                                      child: ClipRRect(
-                                        borderRadius: BorderRadius.circular(20),
-                                        child: Image.asset("images/pizza1.png", height: 150, width: 150, fit: BoxFit.cover,))),
-                                    
-                                    const SizedBox(height: 10,),
-                                    const Text(
-                                       "Pizza",
-                                        style: TextStyle(
-                                        color: Colors.black,
-                                        fontSize: 18,
-                                        fontWeight: FontWeight.bold,
-                                        ),
-                                        ),
-                                             
-                                            const SizedBox(height: 10,),
-                                            
-                                            const Text("Cheese,  TOMATO",
-                                            style: TextStyle(
-                                              fontSize: 16,
-                                              color: Colors.black,
-                                            ),
-                                            ),
-                                            const SizedBox(height: 10,),
-                                             
-                                            Row(
-                                              children: [
-                                                const Text("  \$50",
-                                                
-                                                style: TextStyle(
-                                                  fontSize: 18,
-                                                  color: Colors.black,
-                                                  fontWeight: FontWeight.bold,
-                                                ),
-                                                ),
-                                                const SizedBox(width: 70,),
-                                             
-                                                Container(
-                                                  padding: const EdgeInsets.all(5), 
-                                                  decoration: BoxDecoration(
-                                                    color: const Color(0xffff734c),
-                                                    borderRadius: BorderRadius.circular(10),
-                                                  ) ,
-                                                   
-                                                  child: const Icon(Icons.add),
-                                                ),
-                                              ],
-                                            ),  
-                                  ],
+                                child: GestureDetector(
+                                  onTap: () {
+                                  Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                  builder: (context) => const FoodDetailedScreen(), // Replace with your target screen widget
+                                 ),
+                                );
+                              },
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Center(
+                                        child: ClipRRect(
+                                          borderRadius: BorderRadius.circular(20),
+                                          child: Image.asset("images/pizza1.png", height: 150, width: 150, fit: BoxFit.cover,))),
+                                      
+                                      const SizedBox(height: 10,),
+                                      const Text(
+                                         "Pizza",
+                                          style: TextStyle(
+                                          color: Colors.black,
+                                          fontSize: 18,
+                                          fontWeight: FontWeight.bold,
+                                          ),
+                                          ),
+                                               
+                                              const SizedBox(height: 10,),
+                                              
+                                              const Text("Cheese,  TOMATO",
+                                              style: TextStyle(
+                                                fontSize: 16,
+                                                color: Colors.black,
+                                              ),
+                                              ),
+                                              const SizedBox(height: 10,),
+                                               
+                                              Row(
+                                                children: [
+                                                  const Text("  \$50",
+                                                  
+                                                  style: TextStyle(
+                                                    fontSize: 18,
+                                                    color: Colors.black,
+                                                    fontWeight: FontWeight.bold,
+                                                  ),
+                                                  ),
+                                                  const SizedBox(width: 70,),
+                                               
+                                                  Container(
+                                                    padding: const EdgeInsets.all(5), 
+                                                    decoration: BoxDecoration(
+                                                      color: const Color(0xffff734c),
+                                                      borderRadius: BorderRadius.circular(10),
+                                                    ) ,
+                                                     
+                                                    child: const Icon(Icons.add),
+                                                  ),
+                                                ],
+                                              ),  
+                                    ],
+                                  ),
                                 ),
                               ),
                                                          ),
@@ -634,65 +687,75 @@ class _HomeScreenState extends State<HomeScreen> {
                                 margin: const EdgeInsets.only(left: 10, right: 10),
                                 width: 150,
                                 height: 270,
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    ClipRRect(
-                                      child: Image.asset(
-                                        "images/burger1.png",
-                                        height: 150,
-                                        width: 150,
-                                        fit: BoxFit.cover,
-                                        ),
-                                      ),
-                                      const SizedBox(height: 10,),
-                                      
-                                      const Text(
-                                        "Burger",
-                                        style: TextStyle(
-                                          color: Colors.black,
-                                          fontSize: 18,
-                                          fontWeight: FontWeight.bold,
-                                        ),
-                                      ),
-                                      
-                                      const SizedBox(height: 10,),  
-                              
-                                      const Text(
-                                        "Cheese,  TOMATO",
-                                        style: TextStyle(
-                                          color: Colors.black,
-                                          fontSize: 16,
-                                          // fontWeight: FontWeight.bold,
-                                        ),
-                                      ),
-                                      const SizedBox(height: 10,),
-                                       Row(
-                                        children: [
-                                          const Text(
-                                            ' \$70',
-                                            style: TextStyle(
-                                              color: Colors.black,
-                                              fontSize: 18,
-                                              fontWeight: FontWeight.bold,
-                                            ),  
+                                child: GestureDetector(
+                                  onTap: () {
+                                  Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                  builder: (context) => const FoodDetailedScreen(), // Replace with your target screen widget
+                                 ),
+                                );
+                              },
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      ClipRRect(
+                                        child: Image.asset(
+                                          "images/burger1.png",
+                                          height: 150,
+                                          width: 150,
+                                          fit: BoxFit.cover,
                                           ),
-                                          const SizedBox(width: 70),
-                                          Container(
-                                            padding: const EdgeInsets.all(5),
-                                            decoration: BoxDecoration(
-                                              color: const Color(0xffff734c),
-                                              borderRadius: BorderRadius.circular(10),
+                                        ),
+                                        const SizedBox(height: 10,),
+                                        
+                                        const Text(
+                                          "Burger",
+                                          style: TextStyle(
+                                            color: Colors.black,
+                                            fontSize: 18,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        
+                                        const SizedBox(height: 10,),  
+                                                                
+                                        const Text(
+                                          "Cheese,  TOMATO",
+                                          style: TextStyle(
+                                            color: Colors.black,
+                                            fontSize: 16,
+                                            // fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        const SizedBox(height: 10,),
+                                         Row(
+                                          children: [
+                                            const Text(
+                                              ' \$70',
+                                              style: TextStyle(
+                                                color: Colors.black,
+                                                fontSize: 18,
+                                                fontWeight: FontWeight.bold,
+                                              ),  
                                             ),
-                                          child: const Icon(
-                                            Icons.add
-                                            )
-                                          ),
-                             
-                                          
-                                        ],
-                                      ),
-                                  ],
+                                            const SizedBox(width: 70),
+                                            Container(
+                                              padding: const EdgeInsets.all(5),
+                                              decoration: BoxDecoration(
+                                                color: const Color(0xffff734c),
+                                                borderRadius: BorderRadius.circular(10),
+                                              ),
+                                            child: const Icon(
+                                              Icons.add
+                                              )
+                                            ),
+                                                               
+                                            
+                                          ],
+                                        ),
+                                    ],
+                                  ),
                                 ),
                               ),
                                                        ),
