@@ -25,7 +25,7 @@ class _BottomnavState extends State<Bottomnav> {
       const HomeScreen(),
       const cartScreen(),
       const bookingScreen(),
-      const ProfileScreen(),
+      ProfileScreen(),
     ];
     currentScreen = screens[0]; // Set the default screen
   }
